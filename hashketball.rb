@@ -136,7 +136,6 @@ def get_team_info(team_name) #Returns home or away team hash
   end
 end
 
-def get_team_shoe_size()
 
 def get_player_info(player_name) #Returns individual player hash.
   game_hash.each do |place, team|
@@ -213,5 +212,4 @@ def big_shoe_rebounds
     end
   end
   rebounds
-end
 end
